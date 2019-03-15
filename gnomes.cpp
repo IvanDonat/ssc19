@@ -1,3 +1,8 @@
+// A greedy algorithm is sufficient.
+// We want to insert gnomes in increasing order and at the least possible
+// index. If the current gnome is less than the gnome to insert, it is
+// better to move on and insert ours later.
+
 #include <iostream>
 #include <set>
 using namespace std;

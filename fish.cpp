@@ -1,3 +1,6 @@
+// Fish is solved using a greedy algorithm. Starting from the smallest fish,
+// we keep a cumulative sum and eat back whenever possible.
+
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,6 @@
+// Here it suffices to check all combinations of CW/ACW, as the input
+// is small enough. A bitmask is used to through iterate all possibilities.
+
 #include <iostream>
 using namespace std;
 
